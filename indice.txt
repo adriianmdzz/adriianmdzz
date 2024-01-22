@@ -1,2 +1,42 @@
-adri 
-EJERCICIO 1 
+ADRIAN GOMEZ SERVICIOS RED
+
+EJERCICIO 1
+
+gitconfig --global user.name "[Adrian Gomez]"
+gitconfig --global user.email "[agg31102005@gmail.com]"
+gitconfig --color.ui.auto
+
+Ejercicio 2
+
+mkdir "Libro"
+cd Libro
+git init
+
+Ejercicio 3
+
+1- git status
+2- 
+  echo Cap 1: Introducion a Git --> indice.txt
+  echo Cap 2: Flujo de Trabajo Basico --> indice.txt
+  echo Cap 3: Repositorios Remotos --> indice.txt
+
+Ejercicio 4
+
+git commit -m "Añadido indice del libro"
+git push
+
+Ejercicio 5 
+
+git rm indice.txt -f
+echo Cap 1: Introducion a Git --> indice.txt
+echo Cap 2: Flujo de Trabajo Basico --> indice.txt
+echo Cap 3: Gestion de Ramas --> indice.txt
+echo Cap 4: Repositorios Remotos --> indice.txt
+git commit --amend -m "Añadido al capitulo 3 sobre la gestion de Ramas "
+
+Ejercicio 6
+
+git show
+git commit --amend -m "Añadido al capitulo 3 sobre la gestion de Ramas al indice"
+git show
+
